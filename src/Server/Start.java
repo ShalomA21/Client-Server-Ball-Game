@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-//The code used to pass the ball,check for possession,logout of the game,auto pass upon termination and create a unique ID was inspired by code I found
-//on https://github.com/sat8n/ball-game/blob/276f23e0de8c9a26ff14708f2f05e18fd536d222/BallGameJava/src/gameServer/Game.java
 
 public class Start {
     public static final List<UserProfile> userProfiles = new ArrayList<>();
