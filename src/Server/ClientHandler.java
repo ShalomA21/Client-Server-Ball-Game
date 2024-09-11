@@ -3,8 +3,7 @@ package Server;
 import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.Scanner;
-//The code used to pass the ball,check for possession ,logout of the game,auto pass upon termination and create a unique ID was inspired by code I found
-//on https://github.com/sat8n/ball-game/blob/276f23e0de8c9a26ff14708f2f05e18fd536d222/BallGameJava/src/gameServer/Game.java
+
 
 public class ClientHandler implements Runnable {
     private final Socket Servsocket;
